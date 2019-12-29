@@ -35,7 +35,7 @@ public class TipoCuringa {
 //		List<Object> não é o supertipo de qualquer tipo de lista:
 		List<Object> myObjs1 = new ArrayList<Object>(); 
 		List<Integer> myNumbers1 = new ArrayList<Integer>(); 
-		//myObjs1 = myNumbers1; // erro de compilação, não podemos atribuit por que o tipo Object não é um sub tipo de Integer.
+		//myObjs1 = myNumbers1; // erro de compilação, não podemos atribuir por que o tipo Object não é um sub tipo de Integer.
 		
 //  --------------------------------------------------------------------------------------------------------------------------------
 		

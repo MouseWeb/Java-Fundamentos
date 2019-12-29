@@ -72,7 +72,7 @@ public class Worker {
 		contracts.remove(contract);
 	}
 	
-	// Calciular o valor do contrato salario
+	// Calcular o valor do contrato salario
 	public double income(int year, int month) {
 		double sum = baseSalary;
 		Calendar cal = Calendar.getInstance();
