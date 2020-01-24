@@ -2,7 +2,7 @@ package threads;
 
 import javax.swing.JOptionPane;
 
-public class TesteThread {
+public class ProcessParaleloCorrenteDuasThreadSleep {
 
 	public static void main(String[] args) throws InterruptedException {
 		
