@@ -5,7 +5,7 @@ public class Sigla {
 	public static void main(String[] args) {
 		// TODO Auto-generated method
 		
-		String operacao = JOptionPane.showInputDialog("Digite a sigla de um estado do sudeste em maiúsculo");
+		String operacao = JOptionPane.showInputDialog("Digite a sigla de um estado do sudeste em maiï¿½sculo");
 		 
 			if (operacao.equals("ES") ) {
 				operacao = "Espirito Santo";
@@ -17,10 +17,10 @@ public class Sigla {
 				operacao = "Rio de Janeiro";
 			
 			} else if (operacao.equals("SP") ) {
-				operacao = "São Paulo";
+				operacao = "Sï¿½o Paulo";
 							 
 		    } else {
-				operacao = "Sigla Inválida";
+				operacao = "Sigla Invï¿½lida";
 				 		
 			}
 			
