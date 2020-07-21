@@ -1,8 +1,10 @@
 package date;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
 
@@ -74,6 +76,43 @@ public class Data {
 		System.out.println("y1: " + sdf3.format(y1));
 		System.out.println("y2: " + sdf3.format(y2));
 		System.out.println("y3: " + sdf3.format(y3));
+		
+		System.out.println(" -------------------------------------------------------------------------------------- ");
+		
+		Calendar c = Calendar.getInstance();
+        Date data = c.getTime();
+        DateFormat f = DateFormat.getDateInstance();
+         
+        Date data2 = f.parse("12/01/1995");
+        System.out.println(data2);
+         
+        Date data3 = f.parse("12/01/1995");
+        System.out.println(data3);
+        
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        System.out.println("Data formatada: "+sdf.format(data));
+         
+        //Converte Objetos
+        System.out.println("Data convertida:  " +sdf.parse("02/08/1970"));
+        
+        System.out.println(" -------------------------------------------------------------------------------------- ");
+        
+        String a = "20120401";
+		String b = "20120331";
+			
+	    SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd");
+	    Date data1 = new Date(format.parse(a).getTime());
+	    Date data4 = new Date(format.parse(b).getTime());
+	        
+	    if(data1.after(data4)){
+	            System.out.println("Data: " + a + " é posterior à " + b);
+		}else if(data1.before(data4)){
+	            System.out.println("Data: " + a + " é inferior à " + b);
+		}else{
+	            System.out.println("Data: " + a + " é igual à " + b);
+		}
+         
+        System.out.println(" -------------------------------------------------------------------------------------- ");
 
 	}
 
