@@ -15,69 +15,69 @@ git config --global color.diff "auto"
 
 git reset --hard HEAD~1 - Reset Hard
 
-git init - inicia o git em um projeto
-git init - inicia o git fora do diretorio .git
-git help <comando> - abre o manual do comando passado
+git init             - inicia o git em um projeto
+git init             - inicia o git fora do diretorio .git
+git help <comando>   - abre o manual do comando passado
 
-git add <FILE> - adiciona os arquivos selecionados no índice
-git status - Para obter o status do repositório
-git rm --cached <FILE> - retira os arquivos selecionados no índice
+git add <FILE>          - adiciona os arquivos selecionados no índice
+git status              - Para obter o status do repositório
+git rm --cached <FILE>  - retira os arquivos selecionados no índice
 
-git commit -m "mensagem" - comita os arquivos que estão no índice
-git commit -a -m "mensagem" - comita os arquivos que estão no índice e os que foram modificados
-git commit -m "mensagem" --amend - comita os arquivos que estão no índice utilizando um commit já feito com o mesmo nome
+git commit -m "mensagem"          - comita os arquivos que estão no índice
+git commit -a -m "mensagem"       - comita os arquivos que estão no índice e os que foram modificados
+git commit -m "mensagem" --amend  - comita os arquivos que estão no índice utilizando um commit já feito com o mesmo nome
 
-git reset HEAD <FILE> - retira o arquivo modificado do índice
-git reset HEAD~1 --hard - retorna ao estado do último commit
-git reset HEAD~1 --soft - retorna os arquivos commitados para o índice
-git checkout <FILE> - reinicia o arquivo modificado fora do índice
-git clean -f - limpa os arquivos alterados e que estão no modo Untracked
+git reset HEAD <FILE>     - retira o arquivo modificado do índice
+git reset HEAD~1 --hard   - retorna ao estado do último commit
+git reset HEAD~1 --soft   - retorna os arquivos commitados para o índice
+git checkout <FILE>       - reinicia o arquivo modificado fora do índice
+git clean -f              - limpa os arquivos alterados e que estão no modo Untracked
 
-git log - exibe o log de commits
-git log --stat - exibe detalhe de cada commit
-git reflog - exibe histórico de commits com seu determinado <hash>
-git merge <hash> - traz o commit indicado devolta
+git log           - exibe o log de commits
+git log --stat    - exibe detalhe de cada commit
+git reflog        - exibe histórico de commits com seu determinado <hash>
+git merge <hash>  - traz o commit indicado devolta
 
 
  --------- Branchs e stashs ----------
 
-git stash - guarda as alterações do índice em uma outra área de trabalho
-git stash list - lista os stashs
-git stash apply - aplica o ultimo stash
-git stash apply stash@{0} - aplica o stash selecionado que é listado apartir de "stash list"
-git stash clear - limpa a lista de stashs
-git stash save "comentário" - opção de criação de stash com comentário
-git stash pop - aplica o stash e retira da lista
-git stash drop stash@{0} - retira da lista o stash selecionado
+git stash                    - guarda as alterações do índice em uma outra área de trabalho
+git stash list               - lista os stashs
+git stash apply              - aplica o ultimo stash
+git stash apply stash@{0}    - aplica o stash selecionado que é listado apartir de "stash list"
+git stash clear              - limpa a lista de stashs
+git stash save "comentário"  - opção de criação de stash com comentário
+git stash pop                - aplica o stash e retira da lista
+git stash drop stash@{0}     - retira da lista o stash selecionado
 
-git branch - lista os branchs criados
-git branch -d nomeDoBranch - apaga o branch informado
-git checkout -b nomeDoBranch - cria um novo branch
-git checkout nomeDoBranch - muda para um branch já criado
+git branch                    - lista os branchs criados
+git branch -d nomeDoBranch    - apaga o branch informado
+git checkout -b nomeDoBranch  - cria um novo branch
+git checkout nomeDoBranch     - muda para um branch já criado
 
 
  -------- Merges e rebase -----------
 
-git merge nomeDoBranch - aplica os commits do nomeDoBranch no branch atual
-git merge nomeDoBranch --squash - aplica as mudanças (sem os commits) do nomeDoBranch no branch atual
-git rebase master - apartir de um branch já em desenvolvimento, com rebase é possível sincronizar o branch junto ao master, ou qualquer outro branch.
+git merge nomeDoBranch           - aplica os commits do nomeDoBranch no branch atual
+git merge nomeDoBranch --squash  - aplica as mudanças (sem os commits) do nomeDoBranch no branch atual
+git rebase master                - apartir de um branch já em desenvolvimento, com rebase é possível sincronizar o branch junto ao master, ou qualquer outro branch.
 
 
  -------- Repositório remoto ---------
 
-git clone diretorio/.git nomeDoDiretorio - cria uma cópia remota que aponta para o projeto que foi clonado
-git remote - lista os apontamentos desse projeto
-git remote show origin - mostra informações da origem da cópia
-git checkout -b desenvolvimento origin/desenvolvimento - cria um branch que aponta para o branch já criado em origin
-git branch -a - lista os branchs, inclusive remotos.
-git push origin desenvolvimento - envia as alterações para a origem no branch desenvolvimento
-git pull origin desenvolvimento - puxa as alterações da origem no branch desenvolvimento
-git remote add origin diretorio/.git - envia as alterações para a origem no branch desenvolvimento
-git remote rm origin - retira o origin
-git branch -r - Listar Branchs remotas
+git clone diretorio/.git nomeDoDiretorio                - cria uma cópia remota que aponta para o projeto que foi clonado
+git remote                                              - lista os apontamentos desse projeto
+git remote show origin                                  - mostra informações da origem da cópia
+git checkout -b desenvolvimento origin/desenvolvimento  - cria um branch que aponta para o branch já criado em origin
+git branch -a                                           - lista os branchs, inclusive remotos.
+git push origin desenvolvimento                         - envia as alterações para a origem no branch desenvolvimento
+git pull origin desenvolvimento                         - puxa as alterações da origem no branch desenvolvimento
+git remote add origin diretorio/.git                    - envia as alterações para a origem no branch desenvolvimento
+git remote rm origin                                    - retira o origin
+git branch -r                                           - Listar Branchs remotas
 
 
  --------- Interactive mode: ----------
 git add -i
 gitk --all &
-gitk - Interface gráfica padrão do Git
+gitk          - Interface gráfica padrão do Git
