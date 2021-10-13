@@ -1,0 +1,17 @@
+
+C
+java:S1604"(Make this anonymous inner class a lambda(“˜€×øÿÿÿÿ
+J
+java:S16044"(Make this anonymous inner class a lambda(•¬†ñıÿÿÿÿ8¬Œ‘ß/
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‚İ²ıÿÿÿÿ
+’
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Ö‚İ²ıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ªÛÕ–
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(‚”ñ
+t
+java:S2142*"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(í‚şˆüÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(Ø„²Àıÿÿÿÿ
+t
+java:S2142B"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(šÿ¤£üÿÿÿÿ

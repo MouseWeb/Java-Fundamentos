@@ -1,0 +1,17 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(çıÈöùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(†·§ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ–®Ã
+S	java:S106"9Replace this use of System.out or System.err by a logger.(†·§ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÍİŞÀúÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(€‚¤Ş
+c
+java:S5361*"HReplace this call to "replaceAll()" by a call to the "replace()" method.(á½•ˆøÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(Ğóß¿şÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(Ğóß¿şÿÿÿÿ
+@
+java:S1068"+Remove this unused "calcula" private field.(úıª9
+B
+java:S1068"-Remove this unused "resultado" private field.(êşÊ
+I
+java:S1068"3Remove this unused "resultadoString" private field.(×­Íö

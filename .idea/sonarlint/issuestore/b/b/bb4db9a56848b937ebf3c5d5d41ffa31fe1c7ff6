@@ -1,0 +1,16 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œÌÕı
+>
+java:S1604I"(Make this anonymous inner class a lambda(Ãë§ÿ
+C
+java:S1604_"(Make this anonymous inner class a lambda(ÛÄùøÿÿÿÿ
+M
+java:S1128
+"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ
+E
+java:S1128"/Remove this unused import 'java.util.Calendar'.(ÿÛö´
+A
+java:S1948""&Make "fila" transient or serializable.(Ñ°äïıÿÿÿÿ
+Q	java:S125Y"<This block of commented-out lines of code should be removed.(–¬ï¦
+B
+java:S1874c",Remove this use of "stop"; it is deprecated.(ô¸®¢

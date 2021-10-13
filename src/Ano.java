@@ -5,9 +5,7 @@ public class Ano {
 		int ano,result;
 		
 		ano=Integer.parseInt(JOptionPane.showInputDialog("Digite o ano de nascimento"));
-	
-	
-		
+
 		if(ano <= 2000){
 
 			JOptionPane.showMessageDialog(null,"Maior de idade");

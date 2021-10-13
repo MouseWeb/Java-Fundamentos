@@ -1,0 +1,20 @@
+
+l
+java:S11925"VDefine a constant instead of duplicating this literal "---------------------" 4 times.(¨³Ë
+V	java:S125"<This block of commented-out lines of code should be removed.(Šú·ÿÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(İ˜½…ùÿÿÿÿ
+V	java:S125/"<This block of commented-out lines of code should be removed.(›×şÄşÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(¨³Ë
+H
+java:S11358"2Complete the task associated to this TODO comment.(Ü´Œß
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(¨³Ë
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(Õ™ˆä
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(¢ğÓÄ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(¨³Ë
+M
+java:S1135J"2Complete the task associated to this TODO comment.(¸•„ˆşÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(¨³Ë
+N	java:S106X"9Replace this use of System.out or System.err by a logger.(«‹Îõ

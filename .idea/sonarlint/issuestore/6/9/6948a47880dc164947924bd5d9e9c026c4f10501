@@ -1,0 +1,10 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(»³Ø»şÿÿÿÿ
+N
+java:S1854"8Remove this useless assignment to local variable "tela".(úËÔ¶
+@
+java:S1172"+Remove this unused method parameter "args".(Åèƒ
+?
+java:S1481")Remove this unused "tela" local variable.(úËÔ¶
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Ø‡¼şÿÿÿÿ

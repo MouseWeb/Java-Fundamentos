@@ -66,7 +66,6 @@ public class ProcessParaleloCorrenteDuasThreadSleep {
 		
 		/*Thread processamento paralelo do envio de email*/
 		new Thread() {
-			
 			public void run() {/*Executa o que nós queremos*/
 				/*Código da rotina*/
 				for (int pos = 0; pos < 10; pos++) {

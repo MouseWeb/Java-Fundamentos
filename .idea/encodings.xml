@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/Loops/Loops.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/javaZip_Compactar_Descompactar/Compactar.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/javaZip_Compactar_Descompactar/Descompactar.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/map/MapProgram.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/threads/ThreadObjetoRunnable.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/threads/jDialogThreads/TelaTimeThread.java" charset="windows-1252" />
+    <file url="PROJECT" charset="windows-1252" />
   </component>
 </project>

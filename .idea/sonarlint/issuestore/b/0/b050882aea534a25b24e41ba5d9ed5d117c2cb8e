@@ -1,0 +1,15 @@
+
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(Ïó‚ã
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(–ì¸Üÿÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ˆÂð›þÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(å‡ÂÐ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(Ìçƒ˜úÿÿÿÿ
+O
+java:S28640"4Iterate over the "entrySet" instead of the "keySet".(ç—Áœýÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(–ÚÞÇ
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(õéªí
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(æËŒâüÿÿÿÿ
+a
+java:S1192%"FDefine a constant instead of duplicating this literal "phone" 4 times.(¿°ù¦ùÿÿÿÿ
+a
+java:S1192$"FDefine a constant instead of duplicating this literal "email" 3 times.(ýþóŠúÿÿÿÿ

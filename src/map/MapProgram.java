@@ -25,7 +25,7 @@ public class MapProgram {
 	//		• clear() 
 	//		• size()
 	//		• keySet() - retorna um Set<K> 
-	//		• values() - retornaaum Collection<V>
+	//		• values() - retorna um Collection<V>
 
 	public static void main(String[] args) {
 	

@@ -1,0 +1,31 @@
+
+V	java:S125	"<This block of commented-out lines of code should be removed.(¨–©‘øÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ßÉé
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÜŒ²¿
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ªÛÕ–
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é†±Àıÿÿÿÿ
+’
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(é†±Àıÿÿÿÿ
+U
+java:S1161"":Add the "@Override" annotation above this method signature(íÄ‹ùÿÿÿÿÿ
+M	java:S106'"9Replace this use of System.out or System.err by a logger.(„í´
+t
+java:S2142-"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(ªÛÕ–
+c	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç«ŒÖ
+
+java:S1130A"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(Ç«ŒÖ
+U
+java:S1161E":Add the "@Override" annotation above this method signature(íÄ‹ùÿÿÿÿÿ
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(‚”ñ
+t
+java:S2142P"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(í‚şˆüÿÿÿÿ
+U
+java:S1161f":Add the "@Override" annotation above this method signature(íÄ‹ùÿÿÿÿÿ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(Ø„²Àıÿÿÿÿ
+t
+java:S2142q"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106w"9Replace this use of System.out or System.err by a logger.(šÿ¤£üÿÿÿÿ
+¨
+java:S1192<"ŒDefine a constant instead of duplicating this literal "Sistema continua executando para o usuÃ¡rio/ Executando por trÃ¡s dos panos" 3 times.(‚âóíşÿÿÿÿ
